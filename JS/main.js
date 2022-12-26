@@ -149,7 +149,7 @@ do {
 if(metodoPago==2){
     do{
         do{
-            cuotas=parseInt(prompt("TARJETA DE CRÉDITO:\n¿En cuántas cuotas deseas hacer tu pago? Puedes elegir 1 cuota sin interés ó hasta 12 cuotas con recargo (6% de interés por cuota)\nIngresa la cantidad de cuotas a realizar:"));
+            cuotas=parseInt(prompt("TARJETA DE CRÉDITO:\n¿En cuántas cuotas deseas hacer tu pago? Puedes elegir 1 cuota sin interés ó hasta 12 cuotas con  6% de interés por cuota\nIngresa la cantidad de cuotas a realizar:"));
         }while(validacion(cuotas,0,12,"La opción ingresada no es válida, inténtalo nuevamente.")==false);
 
         if(cuotas==1){
